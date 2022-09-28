@@ -1,0 +1,6 @@
+projectKey=c_benchmark
+serverUrl=http://10.10.3.102:4000
+serverVersion=7.6.0.21501
+dashboardUrl=http://10.10.3.102:4000/dashboard?id=c_benchmark
+ceTaskId=AWoHLXr994NBDN3necgz
+ceTaskUrl=http://10.10.3.102:4000/api/ce/task?id=AWoHLXr994NBDN3necgz

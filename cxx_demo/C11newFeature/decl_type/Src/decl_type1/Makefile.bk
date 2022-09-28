@@ -1,0 +1,11 @@
+SRC_CXX = $(wildcard *.cxx) 
+OBJS = decl_type1.o
+.PHONY: all clean
+CXX=g++
+
+$(OBJS):%.o:%.cxx
+	$(CXX) $< -o $@
+	$(AR) crv test $(OBJS)
+
+clean:
+	rm -f $(TARGET) $(OBJS)
